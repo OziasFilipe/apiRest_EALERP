@@ -1,0 +1,10 @@
+com\laborsil\start\service\Upload.class
+configSwagger\configSwagger.class
+com\laborsil\start\controllersService\ControllerBasic.class
+com\laborsil\start\model\modelService.class
+com\laborsil\start\repositoryController\RepositoryController.class
+com\laborsil\start\repositoryController\RepositoryUsuario.class
+com\laborsil\start\model\modelUsuario.class
+com\laborsil\start\controllersService\ControllerAdmin.class
+com\laborsil\start\EquipeAtendimentoLaborsilApplication.class
+com\laborsil\start\controllersService\ControllerMedio.class
