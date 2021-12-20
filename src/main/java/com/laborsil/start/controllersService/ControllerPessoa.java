@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.laborsil.start.model.ModelPessoa;
 import com.laborsil.start.repositoryController.RepositoryPessoa;
 
+@Api(value="Api Pessoa")
+@CrossOrigin(origins="*")
 @RestController
 @RequestMapping("pessoa")
 public class ControllerPessoa {
