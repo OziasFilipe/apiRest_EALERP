@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.laborsil.start.model.ModelUsuario;
 import com.laborsil.start.repositoryController.RepositoryUsuario;
 
-
+@Api(value="Api Cliente")
+@CrossOrigin(origins="*")
 @RestController
 @RequestMapping("usuario")
-
 public class ContollerUsuario {
 
 	@Autowired
