@@ -18,6 +18,8 @@ import com.laborsil.start.model.ModelArmazem;
 import com.laborsil.start.model.ModelUsuario;
 import com.laborsil.start.repositoryController.RepositoryArmazem;
 
+@Api(value="Api Armazem")
+@CrossOrigin(origins="*")
 @RestController
 @RequestMapping("armazem")
 public class ControllerArmazem {
