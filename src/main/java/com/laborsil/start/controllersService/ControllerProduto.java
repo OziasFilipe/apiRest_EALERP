@@ -13,6 +13,8 @@ import javax.websocket.server.PathParam;
 import com.laborsil.start.model.ModelProduto;
 import com.laborsil.start.repositoryController.RepositoryProduto;
 
+@Api(value="Api Produto")
+@CrossOrigin(origins="*")
 @RestController
 @RequestMapping("produto")
 public class ControllerProduto {
