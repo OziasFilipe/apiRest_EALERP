@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.laborsil.start.model.ModelArmazem;
 import com.laborsil.start.model.ModelUsuario;
 import com.laborsil.start.repositoryController.RepositoryArmazem;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
-@Api(value="Api Armazem")
 @CrossOrigin(origins="*")
 @RestController
 @RequestMapping("armazem")
