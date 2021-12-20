@@ -12,8 +12,8 @@ import java.util.List;
 import javax.websocket.server.PathParam;
 import com.laborsil.start.model.ModelProduto;
 import com.laborsil.start.repositoryController.RepositoryProduto;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
-@Api(value="Api Produto")
 @CrossOrigin(origins="*")
 @RestController
 @RequestMapping("produto")
